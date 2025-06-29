@@ -6,7 +6,9 @@
 
 <body>
     <div id="calculator">
-        <table border="1">
+
+        <h3>Starlight calculator</h3>
+        <table border="2">
             <tr>
                 <td colspan="4"><!-- defining the length of a cell horizontally-->
                     <input type="text" id="inputBox" value="0" />
@@ -40,6 +42,7 @@
                 <td class="operators" colspan="4" onclick="equalBtnPressed()">=</td>
             </tr>
         </table>
+
     </div>
     <script>
         var newLine = true;
@@ -60,7 +63,7 @@
         function opperatorBtnPressed(operator) {
             currentOperator = operator;
             value1 = parseInt(document.getElementById("inputBox").value);//convert intor a number
-            newLine = true
+            newLine = true;
         }
         function equalBtnPressed() {
             var value2 = parseInt(document.getElementById("inputBox").value);//convert into a number

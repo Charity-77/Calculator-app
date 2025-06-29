@@ -1,4 +1,51 @@
 body{
-    background-color: aqua;
+    background-color: rgb(209, 240, 255);
+}
+h3{  
+    color:PLUM;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+table{
+    color: rgb(90, 189, 238);
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 15px;
+    margin: 0 auto ;
+    font-family: cursive;
+}
+tr{
+    height: 10vh;
+    background-color: #FFC1DA;
+   
+}
+td{
+    width: 15vh;
+    border-radius: 50%;
+    border: 1px solid;
+    cursor: pointer;
+    
+}
+td:hover {
+border: 2px solid;
+border-color: aquamarine;
+background-color: aqua;
+box-shadow: 2px 2px 5px rgb(92, 255, 201) ;
+
+}
+#calculator{
+    width: 300px;
+    background-color:#F8F8E1;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    
+
 }
 
+
+#inputBox{
+    border-color: rgb(90, 189, 238);
+    border-radius: 20px;
+
+}
