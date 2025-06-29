@@ -45,7 +45,15 @@ box-shadow: 2px 2px 5px rgb(92, 255, 201) ;
 
 
 #inputBox{
+    background-color:rgb(209, 240, 255) ;
     border-color: rgb(90, 189, 238);
-    border-radius: 20px;
+    border-radius: 19%;
+    width: 80%;
+    color:rgb(90, 189, 238) ;
 
+}
+#inputBox:hover{
+    border: 2px solid;
+    border-color: aquamarine;
+    box-shadow: 2px 2px 5px rgb(92, 255, 201);
 }
